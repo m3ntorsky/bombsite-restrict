@@ -13,7 +13,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/downloads/m3ntorsky/bombsite-restrict/total" alt="Downloads"> 
-  <img src="https://img.shields.io/github/contributors/m3ntorsky/tagbombsite-restrict?color=dark-green" alt="Contributors">
+  <img src="https://img.shields.io/github/contributors/m3ntorsky/bombsite-restrict?color=dark-green" alt="Contributors">
   <img src="https://img.shields.io/github/issues/m3ntorsky/bombsite-restrict" alt="Issues">
   <img src="https://img.shields.io/github/license/m3ntorsky/bombsite-restrict" alt="License">
 </p>
@@ -31,7 +31,7 @@
 {
     "prefix": "{DARKRED}[Bombsite Restrict]{DEFAULT}", // Prefix
     "disabled_bombsite": 0, // 0 - Random | 1 - A | 2 - B
-    "minimum_players": 6, // Minimum number of players (including bots) required to disable bombsite restriction (couting bots)
+    "minimum_players": 6, // Minimum number of players (including bots) required to disable bombsite restriction
     "message_repeated_time": 10 // Time (in seconds) between repeated messages to players
 }
 ```
