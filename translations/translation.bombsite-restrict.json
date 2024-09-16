@@ -1,0 +1,5 @@
+{
+    "only": {
+        "en": "<font class='fontSize-l' color='orange'>Only {BOMBSITE} </font>"
+    }
+}

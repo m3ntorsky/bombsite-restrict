@@ -1,0 +1,6 @@
+{
+    "prefix": "{darkred}[Bombsite Restrict]{default}",
+    "disabled_bombsite": 0,
+    "minimum_players": 6,
+    "message_repeated_time": 10
+}
