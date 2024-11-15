@@ -24,8 +24,10 @@ AddEventHandler("OnMapLoad", function (event,mapName)
 end)
 
 AddEventHandler("OnMapUnload", function(event --[[ Event ]], map --[[ string ]])
+    if isPluginDisabled then return end
     if messageTimer then
         StopTimer(messageTimer)
+        messageTimer = nil
     end
     return EventResult.Continue
 end)
@@ -104,6 +106,7 @@ function EnabledBombsites()
     wasBombsiteBlocked = false
     if messageTimer then
         StopTimer(messageTimer)
+        messageTimer = nil
     end
 end
 
